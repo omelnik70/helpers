@@ -1,0 +1,17 @@
+@import '../../global.scss';
+
+@media (prefers-reduced-motion: no-preference) {
+
+  .transliterBox {
+    & input {
+      border-radius: 5px;
+      padding: 5px;
+      margin: 10px 5px 0 0;
+    }
+  }
+
+  .cyrBox {
+    margin: 0 0 20px 0;
+  }
+
+}
