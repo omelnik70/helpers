@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from '../../logo.svg';
 
-import { browserLocale } from '../../Helpers';
-import { texts } from '../../Texts';
+import assets from '../../../../assets';
+import { browserLocale } from '../../../Helpers';
+import { texts } from '../../../Texts';
 
 import style from './style.module.scss';
 
 const Logo = () => {
+  const { ICONS } = assets;
+  const { LOGO } = ICONS;
   const { ru, ua, en } = texts;
   const browserLanguage = browserLocale();
   const editText = browserLanguage === 'ru' ? ru.content.edit : browserLanguage === 'ua' ? ua.content.edit : en.content.edit;
@@ -15,7 +17,10 @@ const Logo = () => {
   
   return (
     <>
-      <img src={logo} className={style.logo} alt="logo" />
+      <div className={style.logoBox}>
+        <img src={LOGO} className={style.logo} alt="logo" />
+        <img src={LOGO} className={style.logoBack} alt="logo" />
+      </div>
       <p>
         {editText}<code>src/App/index.js</code>{saveText}
       </p>

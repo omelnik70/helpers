@@ -13,6 +13,10 @@ export const texts = {
             inputLat: 'Введите текст латинскими литерами - получите ссылку:',
             holder: 'Введите Ваш текст',
         },
+        rate: {
+            title: 'Определяем рейтинг по Like / Dislike',
+            name: 'Рейтинг:'
+        }
     },
     ua: {
         header: {
@@ -29,6 +33,10 @@ export const texts = {
             inputLat: 'Введіть текст латинськими літерами – отримайте посилання:',
             holder: 'Введіть текст',
         },
+        rate: {
+            title: 'Визначаємо рейтинг по Like / Dislike',
+            name: 'Рейтинг:'
+        }
     },
     en: {
         header: {
@@ -44,5 +52,9 @@ export const texts = {
             inputLat: 'Enter text in Latin letters - get a link:',
             holder: 'Enter your text',
         },
+        rate: {
+            title: 'We determine the rating by Like / Dislike',
+            name: 'Rating:'
+        }
     },
 };

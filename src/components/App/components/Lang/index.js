@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { browserLocale } from '../../Helpers';
-import { texts } from '../../Texts';
+import { browserLocale } from '../../../Helpers';
+import { texts } from '../../../Texts';
 
 import style from './style.module.scss';
 

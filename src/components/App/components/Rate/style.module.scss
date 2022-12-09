@@ -1,0 +1,28 @@
+@import '../../../../global.scss';
+
+.container {
+    margin: 10px 0;
+    & h2 {
+        margin: 0 0 10px 0;
+    }
+}
+
+.img {
+    fill: white;
+    cursor: pointer;
+}
+
+.info {
+    width: 420px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 15px;
+}

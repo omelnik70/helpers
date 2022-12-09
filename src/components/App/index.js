@@ -1,8 +1,9 @@
 import React from 'react';
 
-import TransLiters from '../Components/TransLiters';
-import Logo from '../Components/Logo';
-import Lang from '../Components/Lang';
+import TransLiters from './components/TransLiters';
+import Rate from './components/Rate';
+import Logo from './components/Logo';
+import Lang from './components/Lang';
 
 import style from './style.module.scss';
 
@@ -15,6 +16,7 @@ const App = () => {
       </header>
       <div className={style.content}>
         <TransLiters />
+        <Rate />
         <Logo />
       </div>
     </div>

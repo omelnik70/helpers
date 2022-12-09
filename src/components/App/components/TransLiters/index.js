@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-import { browserLocale, transliter, createLink } from '../../Helpers';
-import { texts } from '../../Texts';
+import { browserLocale, transliter, createLink } from '../../../Helpers';
+import { texts } from '../../../Texts';
 
 import style from './style.module.scss';
 
