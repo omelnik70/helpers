@@ -53,3 +53,30 @@ export const transliter = ( str ) => {
     const rate = Math.round((phat+z*z/(2*n)-z*Math.sqrt((phat*(1-phat)+z*z/(4*n))/n))/(1+z*z/n)*1000000000)
     return rate;
   };
+
+  export const dateConverter = (timestamp) => {
+    let a = new Date(timestamp);
+    let months = ['01','02','03','04','05','06','07','08','09','10','11','12'];
+    let year = a.getFullYear();
+    let month = months[a.getMonth()];
+    let date = a.getDate();
+    //форматирование
+    date = date < 10 ? `0${date}` : date;
+    //соединяем
+    const time = `${date}.${month}.${year}`;
+    return time;
+  };
+
+  export const timeConverter = (timestamp) => {
+    let a = new Date(timestamp);
+    let hour = a.getHours();
+    let min = a.getMinutes();
+    let sec = a.getSeconds();
+    //форматирование
+    hour = hour < 10 ? `0${hour}` : hour;
+    min = min < 10 ? `0${min}` : min;
+    sec = sec < 10 ? `0${sec}` : sec;
+    //соединяем
+    const time = `${hour}:${min}:${sec}`;
+    return time;
+  };

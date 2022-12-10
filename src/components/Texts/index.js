@@ -16,6 +16,10 @@ export const texts = {
         rate: {
             title: 'Определяем рейтинг по Like / Dislike',
             name: 'Рейтинг:'
+        },
+        date: {
+            date: 'Дата:',
+            time: 'Время'
         }
     },
     ua: {
@@ -36,6 +40,10 @@ export const texts = {
         rate: {
             title: 'Визначаємо рейтинг по Like / Dislike',
             name: 'Рейтинг:'
+        },
+        date: {
+            date: 'Дата:',
+            time: 'Час'
         }
     },
     en: {
@@ -55,6 +63,10 @@ export const texts = {
         rate: {
             title: 'We determine the rating by Like / Dislike',
             name: 'Rating:'
+        },
+        date: {
+            date: 'The Date:',
+            time: 'Time'
         }
     },
 };
