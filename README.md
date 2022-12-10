@@ -24,4 +24,4 @@
 
 ## Live
 
-Посмотреть и проверить действие вышеперечисленных функций можно здесь (https://facebook.github.io/create-react-app/docs/getting-started).
+Посмотреть и проверить действие вышеперечисленных функций можно здесь (https://ade8d681.helpers-3g8.pages.dev/).
