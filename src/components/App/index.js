@@ -5,6 +5,7 @@ import Rate from './components/Rate';
 import Logo from './components/Logo';
 import Lang from './components/Lang';
 import DateTime from './components/Date';
+import Separator from './components/Separator';
 
 import style from './style.module.scss';
 
@@ -17,8 +18,11 @@ const App = () => {
       </header>
       <div className={style.content}>
         <TransLiters />
+        <Separator />
         <Rate />
+        <Separator />
         <DateTime />
+        <Separator />
         <Logo />
       </div>
     </div>

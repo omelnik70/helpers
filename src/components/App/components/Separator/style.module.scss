@@ -1,0 +1,62 @@
+@import '../../../../global.scss';
+
+.container {
+    height: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.line {
+    flex: 1 1 auto;
+    height: 5px;
+    background-color: #61dafb;
+    border-radius: 5px;
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 10px;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .container {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .container {
+        width: 40%;
+    }
+}

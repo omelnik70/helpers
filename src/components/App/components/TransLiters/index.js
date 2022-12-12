@@ -21,7 +21,7 @@ const TransLiters = () => {
   
   return (
     <div className={style.transliterBox}>
-          <div className={style.cyrBox}>
+          <div className={style.inputBox}>
             <h3>{inputCyr}</h3>
             <label htmlFor="transliter">
               <input 
@@ -35,7 +35,7 @@ const TransLiters = () => {
             </label>
           </div>
 
-          <div className={style.latBox}>
+          <div className={style.inputBox}>
             <h3>{inputLat}</h3>
             <label htmlFor="transliter">
               <input 
